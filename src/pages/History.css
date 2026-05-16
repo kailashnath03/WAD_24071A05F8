@@ -1,0 +1,70 @@
+.history-card {
+  background: white;
+  border-radius: 12px;
+  padding: 2.5rem;
+  width: 100%;
+  max-width: 900px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  margin: 0 auto;
+}
+
+.history-card h2 {
+  color: #2c3e50;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.history-table th,
+.history-table td {
+  padding: 1rem;
+  border-bottom: 1px solid #f1f2f6;
+}
+
+.history-table th {
+  background-color: #f8f9fa;
+  color: #34495e;
+  font-weight: 600;
+}
+
+.history-table tr:hover {
+  background-color: #fcfcfc;
+}
+
+.amount-cell {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.status-badge {
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.status-completed {
+  background-color: #eafaf1;
+  color: #27ae60;
+}
+
+.status-pending {
+  background-color: #fef9e7;
+  color: #f1c40f;
+}
+
+.status-failed {
+  background-color: #fdeaea;
+  color: #e74c3c;
+}
